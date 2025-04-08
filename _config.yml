@@ -1,7 +1,13 @@
-title: itechbridge
+title: ""  # Esconde o texto no topo para mostrar só a logo
 description: Conectando tecnologia ao seu negócio
-baseurl: ""
+baseurl: "" # No GitHub Pages, mantenha isso vazio
 url: "https://goaguiar99.github.io"
+
 theme: minima
+
 plugins:
   - jekyll-feed
+
+minima:
+  include:
+    - head-custom.html
