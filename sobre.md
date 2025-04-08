@@ -1,9 +1,9 @@
 ---
 layout: page
-title: About Us
-permalink: /about/
+title: Sobre
+permalink: /sobre/
 ---
 
-itechbridge is a technology consulting firm founded by experienced engineers who bridge gaps between business and IT.
+A **itechbridge** é uma empresa de consultoria em tecnologia, fundada por engenheiros com experiência prática em integração de sistemas e soluções de infraestrutura.
 
-With deep expertise in server infrastructure, automation, and analytics, we empower businesses to scale smarter.
+Com conhecimento avançado em servidores, automação e análise de dados, ajudamos empresas a escalarem com inteligência e segurança.
