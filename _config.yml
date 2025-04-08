@@ -1,0 +1,7 @@
+title: itechbridge
+description: Conectando tecnologia ao seu negócio
+baseurl: ""
+url: "https://goaguiar99.github.io"
+theme: minima
+plugins:
+  - jekyll-feed
