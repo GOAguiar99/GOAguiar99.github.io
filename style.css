@@ -1,3 +1,18 @@
 ---
 layout: style
 ---
+
+.client-logo {
+    max-height: 80px;
+    max-width: 100%;
+    object-fit: contain;
+    margin: 0 auto;
+    display: block;
+}
+.clients .col-md-3,
+.clients .col-sm-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
