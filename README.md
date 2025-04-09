@@ -1,30 +1,53 @@
-Agency Jekyll theme
-====================
+# iTechBridge Landing Page – Agency Jekyll Theme
 
-Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
+This is a customized version of the [Agency Bootstrap theme](https://startbootstrap.com/template-overviews/agency/) adapted for Jekyll and hosted via GitHub Pages.
 
-# How to use
+## 🚀 Features
 
-###Portfolio 
+- Responsive landing page
+- Contact form integration (Formspree-compatible)
+- Services, team, and client sections
+- Easy customization via `_config.yml`
 
-Portfolio projects are in '/_posts'
+---
 
-Images are in '/img/portfolio'
+## 📁 Project Structure
 
-###About
+### 🔧 Configuration
 
-Images are in '/img/about/'
-
-###Team
-
-Team members and info are in '_config.yml'
-
-Images are in '/img/team/'
+All global settings (site title, email, baseurl, etc.) are defined in: _config.yml
 
 
-# Demo
+### 🧩 Sections
 
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
+- **Services**: Defined in `_includes/services.html`
+- **Team**: Manually edited in `_includes/team.html`; images in `/img/team/`
+- **Clients**: Logos in `/img/logos/`
+- **Contact Form**: Works with [Formspree](https://formspree.io)
 
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+### 🖼 Portfolio (Optional)
+
+Portfolio entries are stored as markdown files in: _posts/
+
+
+Images live in: /img/
+
+
+> *This site has portfolio disabled by default — you can re-enable by restoring `portfolio_grid.html` in `index.html`.*
+
+---
+
+## 🧪 Demo
+
+Want to see it live?
+
+👉 [Original Demo](https://y7kim.github.io/agency-jekyll-theme)  
+👉 [Live iTechBridge version](https://goaguiar99.github.io)
+
+---
+
+## 📚 Learn More
+
+- [Jekyll documentation](https://jekyllrb.com/)
+- [GitHub Pages help](https://docs.github.com/en/pages)
+- [Bootstrap 3 theme source](https://startbootstrap.com/template-overviews/agency/)
