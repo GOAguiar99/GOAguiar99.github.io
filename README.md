@@ -23,7 +23,7 @@ All global settings (site title, email, baseurl, etc.) are defined in: _config.y
 - **Services**: Defined in `_includes/services.html`
 - **Team**: Manually edited in `_includes/team.html`; images in `/img/team/`
 - **Clients**: Logos in `/img/logos/`
-- **Contact Form**: Works with [Formspree](https://formspree.io)
+- **Contact Form**: Works with [getform](https://getform.io/)
 
 ### 🖼 Portfolio (Optional)
 
@@ -33,7 +33,7 @@ Portfolio entries are stored as markdown files in: _posts/
 Images live in: /img/
 
 
-> *This site has portfolio disabled by default — you can re-enable by restoring `portfolio_grid.html` in `index.html`.*
+> *This site has portfolio disabled by default
 
 ---
 
