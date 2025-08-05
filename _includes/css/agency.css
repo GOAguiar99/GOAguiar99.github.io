@@ -343,6 +343,17 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
+
+section h3.section-subheading-contact {
+    margin-bottom: 75px;
+    text-transform: none;
+    color: #fff;
+    font-family: {{ site.data.template.font.secondary }};
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+}
+
 @media(min-width:768px) {
     section {
         padding: 150px 0;
@@ -658,7 +669,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
+    background-image: url('{{ site.baseurl }}/img/fundo-neutro.jpg');
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -865,3 +876,22 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
+
+.contato-email {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin-top: 25px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: inline-block;
+    max-width: 90%;
+    text-align: center;
+  }
+  
+  
+  .contato-link {
+    color: #ffffff;
+    text-decoration: underline;
+  }
